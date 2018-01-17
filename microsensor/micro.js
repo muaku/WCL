@@ -76,7 +76,7 @@ var DATA_TO_FLUENTD = {}
 // })
 
 /* OPEN PORT ON MAC OR RASPI */
-const portNumber = (process.platform == "darwin") ? '/dev/tty.usbserial-A403NI9D' : '/dev/ttyUSB0'
+const portNumber = (process.platform == "darwin") ? '/dev/tty.usbserial-AL00AWMB' : '/dev/ttyUSB0'
 const port = new SerialPort(portNumber, {
   baudRate: 115200
 }, function(err) {
