@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "moment-timezone": "^0.5.14",
     "mongoose": "^4.13.9",
     "mqtt": "^2.15.1"
   }

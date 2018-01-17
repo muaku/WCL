@@ -5,7 +5,7 @@ const MicroSchema = Schema({
     heart: Number,
     breath: Number,
     motion: Number,
-    created_at: { type: Date, default: Date.now() }
+    created_at: { type: String }
 })
 
 module.exports.micro = mongoose.model("micro", MicroSchema, "micro")
